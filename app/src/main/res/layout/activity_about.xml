@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundColor"
+    tools:context="com.samsung.kaliyev.satpreparation.About">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark"
+            app:titleTextColor="@color/white" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:selectableItemBackground"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/about"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tint="?attr/iconColor"
+                android:src="@drawable/ic_info_outline_black_24px" />
+
+            <TextView
+                android:id="@+id/version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/about"
+                android:fontFamily="@font/open_sans_semibold"
+                android:hint="App Version"
+                android:textColorHint="?attr/hintColor"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/version"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/about"
+                android:fontFamily="@font/open_sans"
+                android:text="1.0.0"
+                android:textColor="?attr/textColor"
+                android:textSize="16dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/support"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:selectableItemBackground"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tint="?attr/iconColor"
+                android:src="@drawable/ic_attach_money_white_24px" />
+
+            <TextView
+                android:id="@+id/donate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/money"
+                android:fontFamily="@font/open_sans_semibold"
+                android:hint="Donate"
+                android:textColorHint="?attr/hintColor"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/donate"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/money"
+                android:fontFamily="@font/open_sans"
+                android:text="Support Development"
+                android:textColor="?attr/textColor"
+                android:textSize="16dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:selectableItemBackground"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/t_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tint="?attr/iconColor"
+                android:src="@drawable/ic_icons8_telegram_app" />
+
+            <TextView
+                android:id="@+id/subscribe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/t_logo"
+                android:fontFamily="@font/open_sans_semibold"
+                android:hint="Official Telegram channel"
+                android:textColorHint="?attr/hintColor"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/subscribe"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/t_logo"
+                android:fontFamily="@font/open_sans"
+                android:text="Join my channel, where I post resources and articles everyday "
+                android:textColor="?attr/textColor"
+                android:textSize="16dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:selectableItemBackground"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tint="?attr/iconColor"
+                android:src="@drawable/ic_code_black_24px" />
+
+            <TextView
+                android:id="@+id/developer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/code"
+                android:fontFamily="@font/open_sans_semibold"
+                android:hint="Developer"
+                android:textColorHint="?attr/hintColor"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/developer"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/code"
+                android:fontFamily="@font/open_sans"
+                android:text="Alibek Kaliyev"
+                android:textColor="?attr/textColor"
+                android:textSize="16dp" />
+
+        </RelativeLayout>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-5797803964516419/6405701491">
+
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/backgroundColor"
+    tools:context=".Resources">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:titleTextColor="@color/white"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+
+    <TextView
+        android:id="@+id/books"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Preparation Books"
+        android:textColor="@color/white"
+        android:fontFamily="@font/open_sans_bold"
+        android:gravity="center"
+        android:textSize="58sp"
+        android:background="@mipmap/books"/>
+
+    <TextView
+        android:id="@+id/tests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Practice Tests"
+        android:textColor="@color/white"
+        android:fontFamily="@font/open_sans_bold"
+        android:gravity="center"
+        android:textSize="58sp"
+        android:background="@mipmap/tests"/>
+
+</LinearLayout>

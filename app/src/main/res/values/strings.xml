@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SAT Preparation</string>
+    <string name="about">About App</string>
+    <string name="support">Support Development</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Sign out</string>
+    <string name="leaderboard">Leaderboards</string>
+</resources>

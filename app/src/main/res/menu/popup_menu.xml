@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/about"
+        android:title="@string/about"
+        android:icon="@drawable/ic_info_outline_black_24px" />
+
+    <!--<item
+        android:id="@+id/contact"
+        android:title="Contact Developer"/>
+
+    <item
+        android:id="@+id/subscribe"
+        android:title="Subscribe to Telegram"/>-->
+
+    <item
+        android:id="@+id/leaderboard"
+        android:title="@string/leaderboard" />
+
+    <item
+        android:id="@+id/donate"
+        android:title="@string/support"
+        android:icon="@drawable/ic_attach_money_white_24px" />
+
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings" />
+
+    <item
+        android:id="@+id/logout"
+        android:title="@string/logout" />
+
+</menu>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#536dfe</color>
+    <color name="colorPrimaryDark">#3c4cab</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="dark_blue">#05022b</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#c2bebe</color>
+    <color name="type">#107003</color>
+    <color name="word">#050d9f</color>
+    <color name="description">#d70510</color>
+    <color name="translation">#404dc4</color>
+    <color name="count_text">#0e109b</color>
+    <color name="count_number">#f9d1090c</color>
+    <color name="count_number_correct">#f90f9303</color>
+    <color name="dots">#898282</color>
+</resources>

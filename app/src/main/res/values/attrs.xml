@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CTAppTheme">
+        <attr name="backgroundColor" format="color"/>
+        <attr name="textColor" format="color"/>
+        <attr name="iconColor" format="color"/>
+        <attr name="hintColor" format="color"/>
+        <attr name="type" format="color"/>
+        <attr name="word" format="color"/>
+        <attr name="description" format="color"/>
+        <attr name="translation" format="color"/>
+        <attr name="buttonTextColor" format="color"/>
+        <attr name="buttonBackgroundColor" format="color"/>
+        <attr name="countNumber" format="color"/>
+        <attr name="countNumberCorrect" format="color"/>
+        <attr name="colorPrimary" format="color"/>
+        <attr name="colorPrimaryDark" format="color"/>
+        <attr name="colorAccent" format="color"/>
+    </declare-styleable>
+</resources>

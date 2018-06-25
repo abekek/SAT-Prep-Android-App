@@ -1,0 +1,73 @@
+<resources>
+
+    <!-- Day application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundColor">@color/white</item>
+        <item name="textColor">@color/black</item>
+        <item name="hintColor">@color/grey</item>
+        <item name="iconColor">@color/black</item>
+        <item name="word">@color/word</item>
+        <item name="type">@color/type</item>
+        <item name="countNumber">@color/count_number</item>
+        <item name="countNumberCorrect">@color/count_number_correct</item>
+        <item name="description">@color/description</item>
+        <item name="translation">@color/translation</item>
+        <item name="buttonTextColor">@color/colorPrimary</item>
+        <item name="buttonBackgroundColor">@color/white</item>
+        <item name="actionOverflowButtonStyle">@style/DotsWhiteTheme</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyleWhite</item>
+       <!-- <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>-->
+    </style>
+
+    <!-- Night application theme. -->
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/dark_blue</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundColor">#060729</item>
+        <item name="textColor">@color/white</item>
+        <item name="hintColor">#d7caca</item>
+        <item name="iconColor">@color/white</item>
+        <item name="word">#d7caca</item>
+        <item name="type">#d7caca</item>
+        <item name="description">#d7caca</item>
+        <item name="translation">#d7caca</item>
+        <item name="buttonTextColor">@color/white</item>
+        <item name="buttonBackgroundColor">#080135</item>
+        <item name="countNumber">#d7caca</item>
+        <item name="countNumberCorrect">#d7caca</item>
+        <item name="actionOverflowButtonStyle">@style/DotsWhiteTheme</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyleWhite</item>
+       <!-- <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>-->
+    </style>
+
+    <style name="DotsWhiteTheme" parent="@style/Widget.AppCompat.ActionButton.Overflow" >
+        <item name="android:tint">@color/white</item>
+    </style>
+
+    <style name="DrawerArrowStyleWhite" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <style name="WindowAnimationTransition">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="AlertDialogLight" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AlertDialogDark" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:background">@color/black</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>

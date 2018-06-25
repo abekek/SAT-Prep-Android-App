@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundColor"
+    tools:context=".Download">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:titleTextColor="@color/white" />
+
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Practice Test #"
+            android:padding="16dp"
+            android:fontFamily="@font/open_sans_semibold"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="?attr/textColor"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/test"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:fontFamily="@font/open_sans_semibold"
+                android:textColor="?attr/hintColor"
+                android:text="Test"
+                android:textSize="24dp" />
+
+            <ImageView
+                android:id="@+id/test_d"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="16dp"
+                android:src="@drawable/ic_file_download_black_24dp"
+                android:background="?android:selectableItemBackground" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:selectableItemBackground"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/essay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:fontFamily="@font/open_sans_semibold"
+                android:textColor="?attr/hintColor"
+                android:text="Essay"
+                android:textSize="24dp" />
+
+            <ImageView
+                android:id="@+id/essay_d"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="16dp"
+                android:src="@drawable/ic_file_download_black_24dp"
+                android:background="?android:selectableItemBackground"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:selectableItemBackground"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/answers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:fontFamily="@font/open_sans_semibold"
+                android:textColor="?attr/hintColor"
+                android:text="Answers"
+                android:textSize="24dp" />
+
+            <ImageView
+                android:id="@+id/answers_d"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="16dp"
+                android:src="@drawable/ic_file_download_black_24dp"
+                android:background="?android:selectableItemBackground"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:selectableItemBackground"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/explanations"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:fontFamily="@font/open_sans_semibold"
+                android:textColor="?attr/hintColor"
+                android:text="Explanations"
+                android:textSize="24dp" />
+
+            <ImageView
+                android:id="@+id/explanations_d"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="16dp"
+                android:src="@drawable/ic_file_download_black_24dp"
+                android:background="?android:selectableItemBackground"/>
+
+        </RelativeLayout>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-5797803964516419/6405701491">
+
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+
+</ScrollView>
